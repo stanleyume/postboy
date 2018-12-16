@@ -1,0 +1,23 @@
+{
+  "name": "postboy",
+  "version": "1.0.0",
+  "description": "Micro blogging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanleyume/postboy.git"
+  },
+  "author": "Stanley Ume",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanleyume/postboy/issues"
+  },
+  "homepage": "https://github.com/stanleyume/postboy#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
