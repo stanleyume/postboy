@@ -2,7 +2,7 @@
   "name": "postboy",
   "version": "1.0.0",
   "description": "Micro blogging",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/stanleyume/postboy#readme",
   "dependencies": {
+    "babel-core": "^6.26.3",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "webpack": "^4.27.1"
   }
 }
