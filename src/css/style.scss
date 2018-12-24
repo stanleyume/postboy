@@ -1,0 +1,16 @@
+$primary: #f90;
+
+.navbar {
+  padding: 10px;
+  font-size: 15px;
+  color: #444;
+}
+
+.navbar .brand {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: $primary;
+  border: none;
+}
