@@ -1,7 +1,7 @@
 {
   "name": "postboy",
   "version": "1.0.0",
-  "description": "Micro blogging",
+  "description": "Mini Micro blogging demo built with React & Redux",
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack",

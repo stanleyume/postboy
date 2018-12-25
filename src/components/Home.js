@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './Layout';
+import Post from './Post';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
@@ -16,6 +17,7 @@ class Home extends Component {
     this.props.newPost(this.refs.post_box.value);
     this.refs.post_box.value = '';
   }
+
   render(){
     // console.log(this.props.posts);
     return (
@@ -31,13 +33,15 @@ class Home extends Component {
                 <button type="submit" className="btn btn-primary">Post</button>
               </form>
 
-
-
-              {this.props.posts.map((post)=>{
-                return post.title.replace(/(?:\r\n|\r|\n)/g, '<br/>');
+              <div className="mt-3">
+              {
+                this.props.posts.map((post, i)=>{
+                return (<Post key={i} body={post.body} />);
+                // post.title.replace(/(?:\r\n|\r|\n)/g, '<br/>');
               })
 
               }
+              </div>
 
             </div>
           </div>

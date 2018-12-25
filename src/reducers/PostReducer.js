@@ -4,7 +4,7 @@ export default function PostReducer(state=[], action){
     case "NEW_POST":
       // return Object.assign({}, state, [...state, state.push({title: action.payload})]);
       return [
-        ...state, {title: action.payload}
+        ...state, {body: action.payload}
       ]
       break;
     default:
