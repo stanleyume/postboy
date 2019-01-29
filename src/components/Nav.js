@@ -18,11 +18,11 @@ class Nav extends Component {
               <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <Link className="nav-link" to="/pricing">Pricing</Link>
             </li>
           </ul>
           <span className="navbar-text">
-            Github
+            <a className="nav-link" href="https://github.com/stanleyume/postboy">Github</a>
           </span>
         </div>
       </nav>
